@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ac145c89-7ad6-4b63-a62d-9477fac33c52}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{bd96f0ab-1e56-412b-acf4-f6274d0499cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{c56e01f9-6dd6-4d25-9350-dc605aea0d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{0fc35c51-9ffb-4d9e-949b-5f17d32460a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{0702361c-8cab-4032-9278-c586ad023348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qcommon">
+      <UniqueIdentifier>{555d5eca-b036-4ad7-8247-2dd51582e835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32">
+      <UniqueIdentifier>{c1cefc87-16ae-40ce-ab67-88b0e1f4c245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{2d63330d-87a7-40bb-a1c9-b5ed33c5e5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b666b24e-06bd-42d0-987f-779fd1f8ae73}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Renderer\glsl">
+      <UniqueIdentifier>{93c44cd4-bfeb-492f-9d35-ae826e25f2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\glsl\include">
+      <UniqueIdentifier>{e2b72631-155f-458a-bc17-d6f1aa729fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Headers">
+      <UniqueIdentifier>{20e997ce-3ff4-431c-a338-e051d26cda56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\Headers">
+      <UniqueIdentifier>{1ead695f-9215-4139-9ba9-e7335253094f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Headers">
+      <UniqueIdentifier>{499c23ba-213d-4168-8b25-1833a24a20ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qcommon\Headers">
+      <UniqueIdentifier>{15e46a38-6952-4f3a-bba9-90c8e9565eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Headers">
+      <UniqueIdentifier>{3b5d97d8-ff49-41df-8e3d-f7686c5f6ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\Headers">
+      <UniqueIdentifier>{33c1f4ec-2bc8-49c5-8199-54233335f2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Headers">
+      <UniqueIdentifier>{4fb20f02-147b-4c40-b3d5-b11a152841e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Headers">
+      <UniqueIdentifier>{c2898b39-e2a1-4717-9c2d-4dbb20970430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Headers\Adl">
+      <UniqueIdentifier>{e8373012-be4b-40f8-ac68-9bbe332f7938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Headers\NvApi">
+      <UniqueIdentifier>{3e57cfc0-f773-4d21-bc41-b754a67b3422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cg">
+      <UniqueIdentifier>{131e8761-b794-4813-a06a-0d3696cb94cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\Headers\openAL">
+      <UniqueIdentifier>{52b9c68e-a8d8-40f9-9fc6-70d0eb5743fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Headers\devIL">
+      <UniqueIdentifier>{8841ba1e-940d-4730-a76d-493813d16efd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client\cl_console.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_images.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_input.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_main.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_parse.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_pred.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="game\m_flash.c">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ccmds.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ents.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_game.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_init.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_main.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_send.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_user.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_world.c">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_context.c">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_efx.c">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_mem.c">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="client\keys.c">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="client\menu.c">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="client\qmenu.c">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cmd.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cmodel.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\common.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\crc.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cvar.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\files.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\md4.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\net_chan.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\pmove.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="game\q_shared.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\unzip.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_decals.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_image.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_model.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_particles.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_postprocess.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_rsurf.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_warp.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_program.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\q_parser.c">
+      <Filter>Source Files\qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_draw2d.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_math.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_misc.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_openal.c">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_lightMaps.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_cull.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_main.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_shadows.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_glstate.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_zprepass.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_vertexLight.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_light.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_glimp.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_input.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_network.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_system.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_memory.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_conproc.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_wndproc.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_xbox360.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_adl7.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_cin.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_clents.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_decals.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_ents.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_fx.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_hud.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_newfx.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_particles.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_scrn.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_tempents.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cg_view.c">
+      <Filter>Source Files\Cg</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_md3Mesh.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_md2Mesh.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_vertexCache.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_gl\r_qgl.c">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="client\vid_menu.c">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_nvapi.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_music.c">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_cd.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_openal.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_sysinfo.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ref_gl\qgl.h">
+      <Filter>Source Files\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\r_local.h">
+      <Filter>Source Files\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\r_model.h">
+      <Filter>Source Files\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\wglext.h">
+      <Filter>Source Files\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_loc.h">
+      <Filter>Source Files\Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\sound.h">
+      <Filter>Source Files\Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\music.h">
+      <Filter>Source Files\Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cdaudio.h">
+      <Filter>Source Files\Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\glcorearb.h">
+      <Filter>Source Files\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\q_shared.h">
+      <Filter>Source Files\qcommon\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\qcommon.h">
+      <Filter>Source Files\qcommon\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\qfiles.h">
+      <Filter>Source Files\qcommon\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\unzip.h">
+      <Filter>Source Files\qcommon\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\keys.h">
+      <Filter>Source Files\Menu\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\qmenu.h">
+      <Filter>Source Files\Menu\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cl_console.h">
+      <Filter>Source Files\Client\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client.h">
+      <Filter>Source Files\Client\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\input.h">
+      <Filter>Source Files\Client\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\ref.h">
+      <Filter>Source Files\Client\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\screen.h">
+      <Filter>Source Files\Client\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\winquake.h">
+      <Filter>Source Files\Win32\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\m_frames.h">
+      <Filter>Source Files\Menu\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>Source Files\Server\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="server\server.h">
+      <Filter>Source Files\Server\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\vid.h">
+      <Filter>Source Files\Win32\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\afxres.h">
+      <Filter>Resource Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\resource.h">
+      <Filter>Resource Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\conproc.h">
+      <Filter>Source Files\Client\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\nvapi\nvapi.h">
+      <Filter>Source Files\Win32\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\nvapi\nvapi_lite_common.h">
+      <Filter>Source Files\Win32\Headers\NvApi</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\nvapi\nvapi_lite_salend.h">
+      <Filter>Source Files\Win32\Headers\NvApi</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\nvapi\nvapi_lite_salstart.h">
+      <Filter>Source Files\Win32\Headers\NvApi</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\nvapi\nvapi_lite_surround.h">
+      <Filter>Source Files\Win32\Headers\NvApi</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\adl\adl_defines.h">
+      <Filter>Source Files\Win32\Headers\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\adl\adl_sdk.h">
+      <Filter>Source Files\Win32\Headers\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\adl\adl_structures.h">
+      <Filter>Source Files\Win32\Headers\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\r_md3.h">
+      <Filter>Source Files\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win_languages.h">
+      <Filter>Source Files\Win32\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\AL\al.h">
+      <Filter>Source Files\Sound\Headers\openAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\AL\alc.h">
+      <Filter>Source Files\Sound\Headers\openAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\AL\efx-presets.h">
+      <Filter>Source Files\Sound\Headers\openAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\AL\efx.h">
+      <Filter>Source Files\Sound\Headers\openAL</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\ImageLib\il.h">
+      <Filter>Source Files\Renderer\Headers\devIL</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\ImageLib\ilu.h">
+      <Filter>Source Files\Renderer\Headers\devIL</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\ImageLib\ilut.h">
+      <Filter>Source Files\Renderer\Headers\devIL</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_gl\ImageLib\ilut_config.h">
+      <Filter>Source Files\Renderer\Headers\devIL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="win32\q2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\include\depth.inc">
+      <Filter>Source Files\Renderer\glsl\include</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\include\lighting.inc">
+      <Filter>Source Files\Renderer\glsl\include</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\include\parallax.inc">
+      <Filter>Source Files\Renderer\glsl\include</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\include\Fxaa3_11.inc">
+      <Filter>Source Files\Renderer\glsl\include</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ambientMd2.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ambientMd3.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ambientMd3.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ambientWorld.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ambientWorld.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\bloomds.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ambientMd2.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\bloomds.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\bloomfp.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\bloomfp.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\cin.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\cin.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\color.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\color.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\depthDownsample.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\depthDownsample.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\dof.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\dof.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\filmGrain.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\filmGrain.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\fixfov.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\fixfov.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\fxaa.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\fxaa.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\gamma.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\gamma.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\gaussX.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\gaussX.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\gaussY.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\gaussY.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\generic.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\generic.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\glare.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\glare.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\light2d.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\light2d.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\lightAlias.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\lightAlias.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\lightWorld.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\lightWorld.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\loading.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\loading.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\mblur.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\mblur.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\menu.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\menu.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\null.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\null.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\particles.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\particles.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\radialBlur.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\radialBlur.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\refract.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\refract.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\shadow.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\shadow.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\sky.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\sky.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ssao.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ssao.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ssaoBlur.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\ssaoBlur.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\thermal.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\thermal.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\thermalfp.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\thermalfp.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\water.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\water.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\globalFog.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\globalFog.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\lut.frag">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+    <None Include="..\baseq2\glsl\lut.vert">
+      <Filter>Source Files\Renderer\glsl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\q2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
