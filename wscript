@@ -54,10 +54,11 @@ def build(bld):
     #src_dir = bld.path.find_dir('src')
 
     bld.env.append_value('CFLAGS', ['-Wno-unused-result'])
-    bld.env.append_value('CFLAGS', ['-O3', '-march=native'])
+    # bld.env.append_value('CFLAGS', ['-O3', '-march=native'])
+    bld.env.append_value('CFLAGS', ['-O3'])
     #bld.env.append_value('CFLAGS', ['-g', '-Wall'])
     #bld.env.append_value('CFLAGS', ['-pg', '-O3', '-march=native'])
-    #bld.env.append_value('LINKFLAGS', ['-pg']) 
+    #bld.env.append_value('LINKFLAGS', ['-pg'])
 
     # Expand source files
     sources = {}

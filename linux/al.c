@@ -12,7 +12,7 @@ of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
 
@@ -51,10 +51,16 @@ void S_SoundInfo_f(void);
 qboolean AL_StartOpenAL (void);
 extern cvar_t *s_useHRTF;
 
-static int ClampCvarInteger(int min, int max, int value) {
-	if (value < min) return min;
-	if (value > max) return max;
-	return value;
+// static int ClampCvarInteger(int min, int max, int value) {
+// 	if (value < min) return min;
+// 	if (value > max) return max;
+// 	return value;
+// }
+
+int ClampCvarInteger(int min, int max, int value) {
+   if (value < min) return min;
+   if (value > max) return max;
+   return value;
 }
 
 qboolean AL_Init (int hardreset)
@@ -71,7 +77,7 @@ qboolean AL_Init (int hardreset)
 		openalStop = qtrue;
 		return qfalse;
 	}
-  
+
   if (!alIsExtensionPresent("AL_SOFT_source_resampler"))
 	{
 		Com_Printf(S_COLOR_MAGENTA"...AL_SOFT_source_resampler not found!\n");
@@ -91,13 +97,13 @@ qboolean AL_Init (int hardreset)
 	}
 	const ALchar *currName = alGetStringiSOFT(AL_RESAMPLER_NAME_SOFT, s_resamplerQuality->integer);
 	Com_Printf("\n...select " S_COLOR_GREEN "%s" S_COLOR_WHITE " resampler\n", currName);
- 
-  
+
+
 	// Initialize extensions
 	alConfig.efx = qfalse;
 
 	// Check for ALC Extensions
-  	
+
     if (s_useEfx->integer) {
         if (alcIsExtensionPresent(alConfig.hDevice, "ALC_EXT_EFX") == AL_TRUE)
         {
