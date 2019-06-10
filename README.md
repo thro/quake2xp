@@ -1,8 +1,8 @@
 
-==============================================================================  
-The original install is fixed by Noabody https://sourceforge.net/u/noabody/profile/  
+============================================  
+Noabody: https://sourceforge.net/u/noabody/profile/  
 Bugfix: https://sourceforge.net/p/quake2xp/bugs/39/  
-==============================================================================  
+============================================  
 
 Quake2XP Linux Notes  
 
@@ -12,9 +12,9 @@ Quake2XP Linux Notes
 4. Contact  
 5. TODO  
 
-==============================================================================  
+============================================  
 1. Building and installing  
-==============================================================================
+============================================  
 
 The source code can be downloaded from SourceForge as:
 $ svn checkout svn://svn.code.sf.net/p/quake2xp/code/trunk quake2xp-code
@@ -51,9 +51,9 @@ contact information.
 
 You can also uninstall it with "python waf uninstall".
 
-==============================================================================  
+============================================  
 2. Copying data  
-==============================================================================  
+============================================  
 
 Before running the program, you need to copy the following data to
 "$PREFIX/share/quake2xp" (under baseq2/). Note that all EXEs are
@@ -103,9 +103,9 @@ you have the source code, but keep in mind it's different for x86 and x86_64.
 If the mod already includes one appropiate for your architecture, just rename
 it to game.so and start Quake2XP as mentioned before for expansion packs.
 
-==============================================================================  
+============================================  
 3. Notes  
-==============================================================================  
+============================================  
 
 If you experience sound distortions (specially under water), check your OpenAL
 Soft version. There is a known problem in 1.13, that was fixed in 1.14. If
@@ -133,9 +133,9 @@ The music system has three modes (accessible through the options menu or the
 If random playing is enabled, it should do what's expected. The command
 "music" can switch tracks if playing random or any files.
 
-==============================================================================  
+============================================  
 4. Contact  
-==============================================================================
+============================================  
 
 If you have any problems or suggestions regarding the Linux version, feel free
 to mail me at "alepulver at gmail.com".
@@ -144,12 +144,12 @@ The Quake2XP author's address is "barnes at yandex.ru".
 
 Website: http://quake2xp.sourceforge.net/
 
-==============================================================================  
+============================================  
 5. TODO  
-==============================================================================
+============================================  
 
 - add note about 3zb2, after testing
 - get launchpad account, create Ubuntu package and promote in
   forums (english and spanish)
 
-==============================================================================
+============================================  
